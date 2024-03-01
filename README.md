@@ -43,7 +43,7 @@ The ChIP-seq data used in this workflow was generated as part of a study that in
 
 The data set used in this workflow comes from propionyl lysine (Kpr) ChIP-seq on H3K18pr and H4K12pr histone marks in CRC cells. The corresponding acetyl marks are used as controls. The data identifies genomic regions marked by Kpr following treatment with sodium propionate (10 mM). 
 
-The `DiffBind.Rmd` workflow will identify differentially bound genes between Kac and Kpr marks in CRC (SW480) cells following sodium propionate treatment. The workflow will perform quality control assessment of replicates within each condition (or histone mark) and between two conditions (Kac vs Kpr). 
+The `DiffBind.Rmd` workflow will identify differentially bound genes between Kac and Kpr marks in CRC (SW480) cells following sodium propionate treatment. The workflow will perform quality control assessment of replicates within each condition (or histone mark) and between two conditions (Kpr vs Kac). 
 
 Once `diffbind.sh` has been run and an `.RData` object and `report.csv` files are ready to be loaded into R, `BiocManager`, `DiffBind`, `EnsDb.Hsapiens.v86`, `AnnotationDbi2`, `org.Hs.eg.db`, `ChIPpeakAnno`, `GenomicRanges`, packages will first have to be installed before `DiffBind.Rmd` workflow can be run.
 
