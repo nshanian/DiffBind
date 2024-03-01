@@ -45,7 +45,7 @@ The data set used in this workflow comes from propionyl lysine (Kpr) ChIP-seq on
 
 The `DiffBind` `.Rmd` workflow will identify differentially bound genes between Kac and Kpr marks in CRC (SW480) cells following sodium propionate treatment. The workflow will perform quality control assessment of replicates within each condition (or histone mark) and between two conditions (Kac vs Kpr). 
 
-Once `diffbind.sh` has been run and an `.RData` object and `report.csv` files are ready to be loaded into R, `BiocManager`, `DiffBind`, `EnsDb.Hsapiens.v86`, `AnnotationDbi2`, `org.Hs.eg.db`, `ChIPpeakAnno`, `GenomicRanges`, packages will first have to be installed.
+Once `diffbind.sh` has been run and an `.RData` object and `report.csv` files are ready to be loaded into R, `BiocManager`, `DiffBind`, `EnsDb.Hsapiens.v86`, `AnnotationDbi2`, `org.Hs.eg.db`, `ChIPpeakAnno`, `GenomicRanges`, packages will first have to be installed before `DiffBind.Rmd` workflow can be run.
 
 Once all the dependencies have been installed, _DiffBind_ will be used for exploratory analysis and for identifying differentially bound genomic coordinates. `GenomicRanges` will then be used to convert genomic coordinates to an annotated object. `ChIPpeakAnno` will be used for annotation of differentially bound regions and `ChIPseeker` will provide average profile and heatmap of peaks binding to TSS regions, and genomic feature distribution. Finally, `ReactomePA` will be used to perform pathway analysis.
 
