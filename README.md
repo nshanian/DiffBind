@@ -15,9 +15,11 @@ The `diffbind_chip.R` script is written to run in an `R` environment as a part o
 
 Download and modify the following paths in `diffbind.sh`:
 
-dir=/<path_to_working_directory>/diffbind
-sampleSheet=<path_to_working_directory>/diffbind/H4K12pr_diffbind.csv
-name=chip
+dir=/<path_to_working_directory>/diffbind / 
+
+sampleSheet=<path_to_working_directory>/diffbind/H4K12pr_diffbind.csv /
+
+name=chip /
 
 Save this `R` script in your working directory, together with the modified `diffbind.sh` shell script and `sampleSheet` metafile listing covariates and experimental factors. Examples of both are provided in this repository. 
 
@@ -41,35 +43,34 @@ Once all the dependencies have been installed, _DiffBind_ will be used for explo
 
 For documentation and further information on each package used in the workflow as well as the topics covered see the references below:
 
-[Bioconductor](https://bioconductor.org/)
+Bioconductor: https://bioconductor.org
 
-[BiocManager](https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html)
+BiocManager: https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html
 
-[DiffBind](https://www.bioconductor.org/packages//2.10/bioc/html/DiffBind.html)
+DiffBind: https://www.bioconductor.org/packages//2.10/bioc/html/DiffBind.html
 
-[EnsDb.Hsapiens.v86](https://bioconductor.org/packages/release/data/annotation/html/EnsDb.Hsapiens.v86.html)
+EnsDb.Hsapiens.v86: https://bioconductor.org/packages/release/data/annotation/html/EnsDb.Hsapiens.v86.html
 
-[AnnotationDbi](https://www.bioconductor.org/packages//2.10/bioc/html/AnnotationDbi.html)
+AnnotationDbi: https://www.bioconductor.org/packages//2.10/bioc/html/AnnotationDbi.html
 
-[org.Hs.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html)
+org.Hs.eg.db: https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html
 
-[GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
+GenomicRanges: https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html
 
-[ChIPpeakAnno](https://bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html)
+ChIPpeakAnno: https://bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html
 
-[ChIPseeker](https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
+ChIPseeker: https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html
 
-[ReactomePA](https://www.bioconductor.org/packages//2.11/bioc/html/ReactomePA.html)
+ReactomePA: https://www.bioconductor.org/packages//2.11/bioc/html/ReactomePA.html
 
-[ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
+DESeq2: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-[ggplot2 tidyverse](https://ggplot2.tidyverse.org/)
+DESeq2 user manual: https://bioconductor.org/packages/devel/bioc/manuals/DESeq2/man/DESeq2.pdf
 
-[DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+Beginner’s guide to using the DESeq2 package: https://bioc.ism.ac.jp/packages/2.14/bioc/vignettes/DESeq2/inst/doc/beginner.pdf
 
-[DESeq2 user manual](https://bioconductor.org/packages/devel/bioc/manuals/DESeq2/man/DESeq2.pdf)
+Differential analysis of count data by DESeq2: https://bioc.ism.ac.jp/packages/3.1/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf
 
-[Beginner’s guide to using the DESeq2 package](https://bioc.ism.ac.jp/packages/2.14/bioc/vignettes/DESeq2/inst/doc/beginner.pdf)
+ggplot2: https://cran.r-project.org/web/packages/ggplot2/index.html
 
-[Differential analysis of count data by DESeq2](https://bioc.ism.ac.jp/packages/3.1/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf)
-
+ggplot2 tidyverse: https://ggplot2.tidyverse.org
