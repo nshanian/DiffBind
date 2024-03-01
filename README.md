@@ -35,7 +35,7 @@ Make sure that `R` v3.6 or higher is available on the HPC cluster. Please see in
 
 The script will first perform differential binding analysis based on a `DESeq2` method (`edgeR` is also available as an option). A minimum of two replicates per condition or factor are necessary for differential analysis. Once differential binding analysis is complete, a correlation matrix and scatter XY plot in `.pdf` format will be generated, along with a final report in `.csv` format. 
 
-As a final output, an `.RData` data object will also be generated that will contain all the necessary information and can be loaded into RStudio without the `sampleSheet` or final report.
+As a final output, an `.RData` data object will also be generated that will contain all the necessary information and can be loaded into `RStudio` without the `sampleSheet` or final report.
 
 ## Experimental Background
 
