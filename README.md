@@ -21,9 +21,17 @@ sampleSheet=<path_to_working_directory>/diffbind/H4K12pr_diffbind.csv /
 
 name=chip /
 
-Save this `R` script in your working directory, together with the modified `diffbind.sh` shell script and `sampleSheet` metafile listing covariates and experimental factors. Examples of both are provided in this repository. 
+Save `diffbind_chip.R` script in your working directory, together with the modified `diffbind.sh` shell script and `sampleSheet` metafile listing covariates and experimental factors. Examples of both are provided in this repository. 
 
-Run the `diffind.sh` shell script from terminal using `sbatch` `diffbind.sh` and make sure the directory also contains either the raw data in `.bam` and `.narrowPeak` file formats (or paths to directories of raw data in the metafile), the `sampleSheet` metafile in `.csv` format, and the `diffbind_chip.R` script. Make sure that `R` v3.6 or higher is available on the HPC cluster. Please see instructions in `diffind.sh` provided in this repository for more details.
+Run the `diffind.sh` shell script from terminal using `sbatch` `diffbind.sh` and make sure the directory also contains:
+
+- either the raw data in `.bam` and `.narrowPeak` file formats, or paths to directories of raw data in the metafile, 
+
+- the `sampleSheet` metafile in `.csv` format, 
+
+- the `diffbind_chip.R` script. 
+
+Make sure that `R` v3.6 or higher is available on the HPC cluster. Please see instructions in `diffind.sh` provided in this repository for more details.
 
 The script will first perform differential binding analysis based on a `DESeq2` method (`edgeR` is also available as an option). A minimum of two replicates per condition or factor are necessary for differential analysis. Once differential binding analysis is complete, a correlation matrix and scatter XY plot in `.pdf` format will be generated, along with a final report in `.csv` format. 
 
