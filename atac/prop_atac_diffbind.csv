@@ -1,0 +1,7 @@
+SampleID,CellLine,Factor,Condition,Treatment,Replicate,bamReads,ControlID,bamControl,Peaks,PeakCaller,Antibody,Lot
+cnt1,sw480,control,24h,0 mM,1,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_cnt1.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_cnt1.narrowPeak ,narrow,atac,
+cnt2,sw480,control,24h,0 mM,2,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_cnt2.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_cnt2.narrowPeak ,narrow,atac,
+cnt3,sw480,control,24h,0 mM,3,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_cnt3.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_cnt3.narrowPeak ,narrow,atac,
+prop1,sw480,propionate,24h,10 mM,1,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_prop1.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_prop1.narrowPeak ,narrow,atac,
+prop2,sw480,propionate,24h,10 mM,2,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_prop2.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_prop2.narrowPeak ,narrow,atac,
+prop3,sw480,propionate,24h,10 mM,3,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/FinalAlign/10072020_SW480_prop3.merged.nodup.no_chrM_MT.bam ,,,/labs/mpsnyder/nshanian/ATAC-seq/10072020_SW480/PeakFiles/10072020_prop3.narrowPeak ,narrow,atac,
