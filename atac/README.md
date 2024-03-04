@@ -1,6 +1,6 @@
 # DiffBind:
 
-## Exploratory and Differential Binding Analysis of ChIP-seq Data
+## Exploratory and Differential Binding Analysis of ATAC-seq Data
 
 This repository contains tools for exploratory and differential binding analysis of ATAC-seq data generated using `DiffBind` package.
 As input, it will require read coverage in `.bam` and peak information in `.narrowPeak` file formats and a metadata table `sampleSheet` listing conditions and experimental factors. 
